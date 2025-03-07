@@ -1,4 +1,4 @@
-version: "2
+version: "2"
 checks:
   argument-count:
     enabled: true
@@ -10,6 +10,8 @@ checks:
     enabled: true
 plugins:
   pylint:
+    enabled: true
+  flake8:
     enabled: true
   fixme:
     enabled: true
