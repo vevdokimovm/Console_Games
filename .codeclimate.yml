@@ -12,6 +12,7 @@ checks:
 plugins:
   pylint:
     enabled: true
+    channel: "latest"
   flake8:
     enabled: true
   fixme:
