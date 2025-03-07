@@ -8,6 +8,7 @@ checks:
     enabled: true
   duplication:
     enabled: true
+
 plugins:
   pylint:
     enabled: true
