@@ -10,8 +10,5 @@ checks:
     enabled: true
 
 plugins:
-  pylint:
-    enabled: true
-    channel: "stable"
   fixme:
     enabled: true
